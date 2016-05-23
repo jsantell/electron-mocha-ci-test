@@ -11,9 +11,9 @@ function spawn() {
 //    PATH_TO_TESTS,
   ], {
     stdio: 'inherit',
-//    env: {
-//      ELECTRON_PATH: utils.getElectronPath(),
-//    },
+      env: {
+       ELECTRON_PATH: utils.getElectronPath(),
+      },
   });
 }
 
