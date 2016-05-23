@@ -8,11 +8,12 @@ dist: trusty
 
 cache:
   directories:
+    - .electron
     - node_modules
 
 before_install:
   - "export DISPLAY=:99.0"
-  - scripts/bootstrap.sh
+  - source scripts/bootstrap.sh
   - sleep 3
 
 install:
