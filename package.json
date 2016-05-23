@@ -1,0 +1,33 @@
+{
+  "name": "electron-mocha-ci-test",
+  "version": "0.1.0",
+  "description": "For testing configurations in CI that run electron-mocha tests.",
+  "repository": "https://github.com/jsantell/electron-mocha-ci-test",
+  "_electron": {
+    "version": "1.0.0"
+  },
+  "scripts": {
+    "test": "node scripts/test.js",
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "6.7.4",
+    "babel-preset-es2015-node5": "1.2.0",
+    "babel-preset-react": "6.5.0",
+    "babel-preset-stage-2": "6.5.0",
+    "babel-register": "6.7.2",
+    "co-task": "^1.0.0",
+    "electron-download": "^2.1.2",
+    "electron-mocha": "2.1.0",
+    "electron-rebuild": "^1.1.4",
+    "extract-zip": "^1.5.0",
+    "fs-promise": "^0.5.0",
+    "mocha": "^2.5.1",
+    "thenify": "^3.2.0"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}

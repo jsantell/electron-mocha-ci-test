@@ -1,0 +1,7 @@
+--ui bdd
+--reporter spec
+--recursive
+--check-leaks
+--timeout 10000
+--require ./test/setup.js
+--preload ./test/head.js
